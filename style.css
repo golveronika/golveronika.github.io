@@ -269,7 +269,13 @@ nav > a:hover {
 }
 
 @media screen and (max-width: 577px) {
-	
+
+#portfolio div .href{
+
+	 opacity: 0.6;
+	background:rgba(0,0,0,0.2);
+}
+
 #workexp ul {
 	font-size: 14px;
 }
