@@ -91,7 +91,7 @@ span.date_info {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	position: relative;
+	//position: relative;
 	
 }
 
@@ -139,7 +139,7 @@ span.date_info {
 }
 
 #portfolio div .href{
-	position: relative;
+	
 }
 
 
@@ -340,6 +340,7 @@ nav {
 	white-space: nowrap;
 	align-items: center;
 	position: fixed;
+	z-index: 800;
 }
 	
 .content {
