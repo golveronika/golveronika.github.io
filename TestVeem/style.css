@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  	scroll-behavior: smooth; 
+	
+}
+
+body{ background:url('https://westfieldcc.files.wordpress.com/2011/10/simple-blur-ipad-background.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#result .btnarea button{
+
+	margin: 2px;
+	padding: 6px;
+
+}
+
+#result textarea{
+	margin: 5px;
+
+}
+
+#result{
+	overflow: auto;
+	position: relative;
+
+
+}
+
+#result form{
+ color: #333333;	
+	font-size: 18px;
+
+}
+
+#result form input{
+ color: #333333;	
+	font-size: 17px;
+	margin: 5px;
+	padding: 1px;
+}
+
+
+#result form label{
+ display: block;	
+}
+
+
+#config {
+	display: none;
+}
+
+#tabs_nav {
+
+	background-color: white;
+	border-radius: 10px 11px 0px 0px;
+	position: relative;
+}
+
+#tabs_nav a.active {
+	color: #3f3f3f;
+	font-weight: 600;
+}
+
+#tabs_nav a {
+	text-decoration: none;
+	font-family: Segoe UI, Arial, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	padding: 8px;
+	display: inline-block;
+
+}
+
+.selector {
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.3;
+  z-index:1;
+  border-radius: 10px 11px 0px 0px;
+  transition-duration:0.6s;
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+
+}
+
+
+#tabs_content {
+	background-color: white;
+	border: 2px solid white;
+	border-top: none;
+	position: absolute;
+	overflow: hidden;
+}
+
+#tabs_content  #editor { 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 50px;
+  left: 0px;
+}
+
+#tabs_content  .bottom_content {
+	position: absolute;
+  bottom: 0px;
+  left: 0px;
+	width: 100%;
+	
+}
+
+
+#tabs_content  .bottom_content button {
+
+	float: right;
+	font-family: Segoe UI, Arial, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+	margin: 5px 20px 5px 5px;
+  width: 100px;	
+	
+}
+
+#tabs_content > div {
+	background-color: #F2EEE2;
+	height: 100%;
+
+}
+
+#tabs_content #result{
+	font-family: Segoe UI, Arial, sans-serif;
+	padding: 5px;
+	color: #888888;
+}
+
+#error {
+	font-family: Segoe UI, Arial, sans-serif;
+	text-align: center;
+}
+
+#error a {
+	text-decoration: none;
+	
+	background: red;
+	color: white;
+	padding: 5px;
+	display: block;
+	margin-left: 35%;
+	margin-top: 15px;
+	width: 100px;
+}
+
+
+@media screen and (min-height: 580px) {
+	#tabs_content {
+		height: calc(90% - 60px);	
+	}
+}
+
+@media screen and (max-height: 580px) {
+	#tabs_content {
+		height: calc(100% - 60px);
+	}
+}
+@media screen and (min-width: 1034px) {
+	#tabs_nav {
+		margin: 10px 0px 0px 10px; 
+		width: 70%;
+	}
+	
+	#tabs_content {
+		margin: 0px 0px 0px 10px; 
+		width: calc(70% - 4px);	
+	}
+}
+
+@media screen and (min-width: 577px) and  (max-width: 1034px) {
+	#tabs_nav {
+		margin: 10px 0px 0px 10px; 
+		width: 80%;
+	}
+
+	#tabs_content {
+		margin: 0px 0px 0px 10px; 
+		width: calc(80% - 4px);
+	}
+}
+
+@media screen and (max-width: 577px) {
+	#tabs_nav {
+		margin: 10px 0px 0px 10px; 
+		width: calc(100% - 20px);
+	}
+	
+	#tabs_content {
+		margin: 0px 0px 0px 10px; 
+		width: calc(100% - 24px);
+	}
+}
+
