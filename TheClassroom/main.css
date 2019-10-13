@@ -57,7 +57,8 @@
     overflow: auto;
     position: relative; }
     .page-body .content {
-      margin-top: 50px; }
+      margin-top: 50px; 
+      min-height: 260px;}
     .page-body .top-menu {
       width: 1080px;
       margin: 25px auto; }
