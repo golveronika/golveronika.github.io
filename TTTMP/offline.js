@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1599854283,
+	"version": 1601458292,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -18,6 +18,7 @@
 		"images/chessturnmarker-sheet1.png",
 		"images/spritewhiteout-sheet0.png",
 		"images/sprite2-sheet0.png",
+		"images/sprite3-sheet0.png",
 		"media/gameover1.m4a",
 		"media/gameover1.ogg",
 		"media/oooscary1.m4a",
@@ -28,6 +29,7 @@
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
+		"style.css",
 		"c2mp-net.js",
 		"c2mp-peer.js",
 		"c2mp.js",
