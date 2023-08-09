@@ -3,7 +3,7 @@
         "id": "animals",
         "name": "Zvířata",
         "image": "https://n1s1.hsmedia.ru/a1/ec/ec/a1ececc48afd3c0c498fdbd47ba45dbe/728x542_1_f5b22481fc08917ff7584d523f52ed21@1000x745_0xac120003_3944844451633381523.jpeg",
-        "quations": [
+        "questions": [
             {
                 "id": 1,
                 "quation": "Jak se jmenuje ptačí domeček?",
@@ -142,7 +142,7 @@
         "id": "trees",
         "name": "Stromy a tráva",
         "image": "https://pibig.info/uploads/posts/2021-06/1624433732_41-pibig_info-p-derevya-kustarniki-travi-priroda-krasivo-f-46.jpg",
-        "quations": [
+        "questions": [
             {
                 "id": 11,
                 "quation": "Který strom pohlcuje nejvíce záření a čistí vzduch lépe než ostatní?",
@@ -237,7 +237,7 @@
         "id": "Space",
         "name": "Vesmír",
         "image": "https://focus.ua/static/storage/thumbs/920x465/9/31/60c8f662-07bfb73df17d3e0ff37ebc21b921e319.jpg?v=7950_1",
-        "quations": [
+        "questions": [
             {
                 "id": 21,
                 "quation": "Kdo jako jeden z prvních naznačil, že Slunce je středem vesmíru?",
