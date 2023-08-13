@@ -71,50 +71,6 @@
                 ]
             },
             {
-                "id": 4,
-                "quation": "Jaký pták dokáže dráždit?",
-                "answers": [
-                    {
-                        "text": "Labuť",
-                        "isCorrect": false
-                    },
-                    {
-                        "text": "Papoušek",
-                        "isCorrect": true
-                    },
-                    {
-                        "text": "Datel",
-                        "isCorrect": false
-                    },
-                    {
-                        "text": "Sova",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "quation": "Který pták se pyšní svým barevným ocasem?",
-                "answers": [
-                    {
-                        "text": "Vrabec",
-                        "isCorrect": false
-                    },
-                    {
-                        "text": "Holub",
-                        "isCorrect": false
-                    },
-                    {
-                        "text": "Racek",
-                        "isCorrect": false
-                    },
-                    {
-                        "text": "Páv",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
                 "id": 5,
                 "quation": "Který pták se pyšní svým barevným ocasem?",
                 "answers": [
@@ -160,7 +116,7 @@
                         "isCorrect": true
                     },
                     {
-                        "text": "Smrk",
+                        "text": "Růže",
                         "isCorrect": false
                     }
                 ]
@@ -287,7 +243,7 @@
                 "quation": "Kdo jako první použil dalekohled ke studiu nebeských těles?",
                 "answers": [
                     {
-                        "text": "Mikuláš Koperník;",
+                        "text": "Mikuláš Koperník",
                         "isCorrect": false
                     },
                     {
