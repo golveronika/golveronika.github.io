@@ -1,0 +1,38 @@
+{
+    "supTitle": "Hello! Here are",
+    "title": "the print items",
+    "noProducts": "No products found...",
+    "priceFrom": "from {{price}} $",
+    "copyright": "Copyright © 2024. All rights reserved.",
+    "footer": [
+      {
+        "title": "Terms + Conditions",
+        "url": "#"
+      },
+      {
+        "title": "Privacy + Cookies",
+        "url": "#"
+      },
+      {
+        "title": "Cookies Settings",
+        "url": "#"
+      },
+      {
+        "title": "Legal Information",
+        "url": "#"
+      }
+    ],
+    "price": "Price:",
+    "tax": "Tax included:",
+    "job": "Job fees:",
+    "quantity": "Quantity:",
+    "total": "Total price:",
+    "extra": "Extra:",
+    "productNotFound": "Product not found",
+    "notFound": "Page not found :(",
+    "homepage": "Go to Homepage",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above."
+    }
+  }

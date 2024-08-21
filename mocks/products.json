@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "code": "p1",
+      "name": "Business cards",
+      "price": 100,
+      "printing": 10,
+      "image": "/mocks/images/image0_0.jpg",
+      "incl_job": true,
+      "incl_tax": true,
+      "incl_extra": false,
+      "extra": [
+        {
+          "code": "e1",
+          "name": "Exclusive paper"
+        }
+      ]
+    },
+    {
+      "code": "p2",
+      "name": "Envelopes",
+      "price": 50,
+      "printing": 25,
+      "image": "/mocks/images/1.png",
+      "incl_job": true,
+      "incl_tax": false,
+      "incl_extra": false
+    },
+    {
+      "code": "p3",
+      "name": "Letterheads",
+      "price": 45,
+      "printing": 30,
+      "image": "/mocks/images/2.png",
+      "incl_job": true,
+      "incl_tax": true,
+      "incl_extra": false
+    },
+    {
+      "code": "p4",
+      "name": "Posters and Billboards",
+      "price": 200,
+      "printing": 10,
+      "image": "/mocks/images/3.jpg",
+      "incl_job": true,
+      "incl_tax": true,
+      "incl_extra": true,
+      "extra": [
+        {
+          "code": "e1",
+          "name": "Waterproof"
+        },
+        {
+          "code": "e2",
+          "name": "Eco-friendly plastic"
+        },
+        {
+          "code": "e3",
+          "name": "Super material"
+        }
+      ]
+    },
+    {
+      "code": "p5",
+      "name": "Packages",
+      "price": 340,
+      "printing": 5,
+      "image": "/mocks/images/image2.png",
+      "incl_job": true,
+      "incl_tax": true,
+      "incl_extra": false
+    },
+    {
+      "code": "p6",
+      "name": "Flyers",
+      "price": 340,
+      "printing": 5,
+      "image": "/mocks/images/image1_0.jpg",
+      "incl_job": true,
+      "incl_tax": true,
+      "incl_extra": false
+    }
+  ]
+}
